@@ -176,19 +176,21 @@ position: relative;
 }
 @keyframes words{
 0%,20%{
-    content: "Freelancer";
+    content: "Web Developer";
+    
 }
 21%,40%{
-    content: "Full-Stack Developer";
+    content: "Java Developer";
+    
 }
 41%,60%{
-    content: "Java Developer";
+    content: "Php Developer";
 }
-61%,81%{
-    content: "Web Developer";
+61%,80%{
+    content: "Freelancer";
 }
 81%,100%{
-    content: "UI / UX Designer";
+    content: "Business Consultant";
 }
 
 
@@ -199,6 +201,24 @@ width: 0;
     }
     5%,20%,25%,40%,45%,60%,65%,80%,85%{
         width: calc(100% + 8px);
+    }
+
+}
+
+@media (max-width: 600px){
+    .animated-text{
+        font-size: 28px;
+        font-weight: 550;
+        font-style: italic;
+        
+    
+    }
+    .header-text h1 span {
+        font-size: 50px;
+        color: #ff004f;
+    }
+    #about {
+        margin-top: -80px;
     }
 
 }
@@ -292,7 +312,7 @@ width: 0;
 
 @media (max-width: 1210px) {
     #about {
-        margin-top: 150px;
+        /* margin-top: 150px; */
 
     }
 }
